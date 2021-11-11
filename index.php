@@ -57,9 +57,7 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#footers">About us</a>
-          </li>
+         
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Management
@@ -69,6 +67,9 @@
               <li><a class="dropdown-item" href="?page=product_management">Product</a></li>
               <li><a class="dropdown-item" href="?page=shops_management">Shops</a></li>
             </ul>
+            <li class="nav-item">
+            <a class="nav-link" href="#footers">About us</a>
+          </li>
           </li>
 
           

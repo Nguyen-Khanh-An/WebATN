@@ -37,7 +37,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./tree/img/slide2.png" class="d-block w-100" alt="slide3" width="1000" height="450">
+            <img src="./tree/img/anh4.png" class="d-block w-100" alt="slide3" width="1000" height="450">
             <div class="carousel-caption d-none d-md-block">
               <p>SALE 50%</p>
             </div>
