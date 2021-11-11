@@ -49,7 +49,6 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light ">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.php"><img src="./tree/img/anh8.png" alt="logo"  style="background-color:#;color:#FFF"></a>
-      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -188,9 +187,9 @@
         <div class="col span-1-of-3">
           <ul class="information">
             <h2>Address</h2>
-            <li><i class="fas fa-map-marker-alt"></i>Address: 21, Nguyen Trung Truc street, Ninh Kieu District, Can Tho City</li>
+            <li><i class="fas fa-map-marker-alt"></i>Address: 30/4 street, Ninh Kieu District, Can Tho City</li>
             <li><i class="fas fa-envelope"></i>Email: NKA</li>
-            <li><i class="fas fa-phone"></i>Phone: (+84)333119697</li>
+            <li><i class="fas fa-phone"></i>Phone: (+84)388512115</li>
           </ul>
           <ul class="social-icons">
             <li><a href="https://www.facebook.com/duongquoccute"><i class="fab fa-facebook"></i></a></li>
@@ -203,7 +202,7 @@
           <div class="social-icons">
             <div class="information">
               <h2>About Us</h2>
-              <p>Dery is a stationery store that supports and sells stationery, consumer electronics, and services.
+              <p>ATN is a stationery store that supports and sells stationery, consumer electronics, and services.
               </p>
             </div>
           </div>
@@ -223,7 +222,7 @@
       </div>
     </section>
     <p class="copyright">
-      Copyright &copy; 2021 by Dery Team
+      Copyright &copy; 2021 by ATN
     </p>
   </footer>
 
