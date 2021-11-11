@@ -24,20 +24,20 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./tree/img/anh3.png" class="d-block w-100" alt="slide1" width="1000" height="500">
+            <img src="./tree/img/legoxekeovacano.png" class="d-block w-100" alt="slide1" width="1000" height="500">
             <div class="carousel-caption d-none d-md-block">
               <h5>Wellcome to Dery</h5>
               <p>Have a good day</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./tree/img/anh3.jpg" class="d-block w-100" alt="slide2" width="1000" height="450">
+            <img src="./tree/img/legocitymaybaycuuho1.png" class="d-block w-100" alt="slide2" width="1000" height="450">
             <div class="carousel-caption d-none d-md-block">
               <p>SALE 20%</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./tree/img/anh1.png" class="d-block w-100" alt="slide3" width="1000" height="450">
+            <img src="./tree/img/legofriendstiembanhkem.png" class="d-block w-100" alt="slide3" width="1000" height="450">
             <div class="carousel-caption d-none d-md-block">
               <p>SALE 50%</p>
             </div>
