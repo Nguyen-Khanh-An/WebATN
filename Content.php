@@ -4,14 +4,10 @@
   <!-- category-->
   <div class="row">
     <div class="col-sm-4">
-      <h3>Category</h3>
+      
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Toys Lego
-            </button>
-          </h2>   
+            
           
 
         </div>
