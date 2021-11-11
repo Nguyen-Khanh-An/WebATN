@@ -37,7 +37,14 @@
           </div>
           
         </div>
-        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
     <!--end slide ad-->
@@ -52,16 +59,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="latest-product">
-                        <h2 
-                        class="title">
-									
-									<span class="pull-left"><span class="text"><span class="line"><a href="product_detail.html"><strong>Best Selling Products</strong></a></span></span>
-									</span>
-									
-									<span class="pull-right">
-										<a class="left button" href="#myCarousel-3" data-slide="prev"></a><a class="right button" href="#myCarousel-3" data-slide="next"></a>
-									</span>
-                      </h2>
+                        <h2 class="section-title">Product</h2>
                         <div class="product-carousel">
                         
                         <!--Load Product DB -->
