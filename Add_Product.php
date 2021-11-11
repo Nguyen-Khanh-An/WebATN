@@ -56,9 +56,7 @@
 		if (trim($category) == "0") {
 			$err .= "<li>Choose category, Please</li>";
 		}
-		if (!is_numeric($price) || ($price <= 0)) {
-			$err .= "<li>enter price greater than 0 or is number, Please</li>";
-		}
+		
 
 
 		if (!is_numeric($qty) || ($qty <= 0)) {
