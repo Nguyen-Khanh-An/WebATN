@@ -65,7 +65,7 @@
               Management
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              
+              <li><a class="dropdown-item" href="?page=category_management">Category</a></li>
               <li><a class="dropdown-item" href="?page=product_management">Product</a></li>
               <li><a class="dropdown-item" href="?page=shops_management">Shops</a></li>
             </ul>
