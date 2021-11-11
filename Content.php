@@ -24,13 +24,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./tree/img/slide1.png" class="d-block w-100" alt="slide1" width="500" height="250">
+            <img src="./tree/img/slide1.png" class="d-block w-100" alt="slide1" width="250" height="250">
             <div class="carousel-caption d-none d-md-block">
               
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./tree/img/slide2.png" class="d-block w-100" alt="slide2" width="500" height="250">
+            <img src="./tree/img/slide2.png" class="d-block w-100" alt="slide2" width="250" height="250">
             <div class="carousel-caption d-none d-md-block">
               
             </div>
