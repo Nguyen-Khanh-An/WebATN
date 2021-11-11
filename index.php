@@ -108,10 +108,10 @@
             <?php
             } else {
             ?>
-              <li><a href="?page=login" style="color:#000">
-                  <i class="fa fa-lock"></i>Login</a></li>
-              <li><a href="?page=register" style="color:#000">
-                  <i class="fa fa-star"></i>Register</a></li>
+              <li><a href="?page=login" style="background-color:#ff6699;color:#FFF">
+                                <i class="fa fa-lock"></i>Login</a></li>
+                                <li><a href="?page=register" style="background-color:#ff6699;color:#FFF">
+                                <i class="fa fa-star"></i>Register</a></li>
             <?php
             }
             ?>
