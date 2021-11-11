@@ -47,7 +47,7 @@
                 echo '<meta http-equiv="refresh" content="0;URL=index.php"/>';
             }
             else{
-                echo "you loged in fail";
+                echo ">>>>>>>>>>You loged in fail";
             }
         }
     }  
