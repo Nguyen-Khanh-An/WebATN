@@ -12,11 +12,7 @@
               Toys Lego
             </button>
           </h2>   
-          <ul class="list-group">
-            <li class="list-group-item">LEGO Education</li>
-            <li class="list-group-item">LEGO Ninjago</li>
-            <li class="list-group-item">LEGO City</li>
-          </ul>
+          
 
         </div>
       </div>

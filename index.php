@@ -65,7 +65,7 @@
               Management
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="?page=category_management">Category</a></li>
+              
               <li><a class="dropdown-item" href="?page=product_management">Product</a></li>
               <li><a class="dropdown-item" href="?page=shops_management">Shops</a></li>
             </ul>
@@ -198,7 +198,7 @@
           <ul class="information">
             <h2>Address</h2>
             <li><i class="fas fa-map-marker-alt"></i>Address: 21, Nguyen Trung Truc street, Ninh Kieu District, Can Tho City</li>
-            <li><i class="fas fa-envelope"></i>Email: duonghqgcc19037@fpt.edu.vn</li>
+            <li><i class="fas fa-envelope"></i>Email: NKA</li>
             <li><i class="fas fa-phone"></i>Phone: (+84)333119697</li>
           </ul>
           <ul class="social-icons">
