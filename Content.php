@@ -24,7 +24,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./tree/img/anh2.png" class="d-block w-100" alt="slide1" width="1000" height="500">
+            <img src="./tree/img/slide1.png" class="d-block w-100" alt="slide1" width="1000" height="500">
             <div class="carousel-caption d-none d-md-block">
               <h5>Wellcome to ATN</h5>
               <p>Have a good day</p>
