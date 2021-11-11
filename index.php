@@ -98,7 +98,7 @@
             if (isset($_SESSION['us']) && $_SESSION['us'] != "") {
             ?>
               <li><a style="color:#000" href="?page=update_customer">
-              <i class="fas fa-user-edit">Hi, <?php echo $_SESSION['us']?></i>
+              <i class="fas fa-user-edit">>> Hi,  <<<<?php echo $_SESSION['us']?></i>
               </a>
               </li>
               <li><a href="?page=logout" style="color: #000;">
@@ -108,10 +108,10 @@
             <?php
             } else {
             ?>
-              <li><a href="?page=login" style="background-color:#ff6699;color:#FFF">
-                                <i class="fa fa-lock"></i>Login</a></li>
-                                <li><a href="?page=register" style="background-color:#ff6699;color:#FFF">
-                                <i class="fa fa-star"></i>Register</a></li>
+              <li><a href="?page=login" style="color:#000">
+                  <i class="fa fa-lock"></i>Login</a></li>
+              <li><a href="?page=register" style="color:#000">
+                  <i class="fa fa-star"></i>Register</a></li>
             <?php
             }
             ?>
