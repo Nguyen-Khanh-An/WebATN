@@ -189,21 +189,21 @@
           <ul class="information">
             <h2>Address</h2>
             <li><i class="fas fa-map-marker-alt"></i>Address: 30/4 street, Ninh Kieu District, Can Tho City</li>
-            <li><i class="fas fa-envelope"></i>Email: NKA</li>
+            <li><i class="fas fa-envelope"></i>Email: annkgcc19160@fpt.edu.vn</li>
             <li><i class="fas fa-phone"></i>Phone: (+84)388512115</li>
           </ul>
           <ul class="social-icons">
-            <li><a href="https://www.facebook.com/duongquoccute"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.facebook.com/duongquoccute"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.facebook.com/duongquoccute"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com/duongquoccute"><i class="fab fa-google-plus-square"></i></a></li>
+            <li><a href="https://www.facebook.com/KingKaJenZo/"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.facebook.com/KingKaJenZo/"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.facebook.com/KingKaJenZo/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/KingKaJenZo/"><i class="fab fa-google-plus-square"></i></a></li>
           </ul>
         </div>
         <div class="col span-1-of-3">
           <div class="social-icons">
             <div class="information">
               <h2>About Us</h2>
-              <p>ATN is a stationery store that supports and sells stationery, consumer electronics, and services.
+              <p>ATN is a company specializing in selling toy models with the best quality. Always update the fastest new product lines to bring good experiences to customers.
               </p>
             </div>
           </div>
