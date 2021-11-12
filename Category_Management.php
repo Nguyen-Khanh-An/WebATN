@@ -74,7 +74,7 @@
               <td><?php echo $row["cat_name"]; ?></td>
               <td><?php echo $row["cat_des"]; ?></td>
               <td style='text-align:center'><a href="?page=update_category&&id=<?php echo $row["cat_id"];?>"><img src='./tree/img/edit.png' border='0' width="30" height="30" /></td>
-              <td style='text-align:center'><a href="?page=category_management&&function=del&&id=<?php echo $row["cat_id"];?>" onclick="return deleteConfirm()"><img src='./tree/img/delete.png' border='0' width="30" height="30"/></a></td>
+              <td style='text-align:center'><a href="?page=category_management&&function=del&&id=<?php echo $row["cat_id"];?>" onclick="return deleteConfirm()"><img src='./tree/img/delete2.png' border='0' width="30" height="30"/></a></td>
             </tr>
             <?php
             $No++;

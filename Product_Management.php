@@ -82,7 +82,7 @@
               <img src='./tree/img/<?php echo $row['pro_image'] ?>' border='0' width="50" height="50" />
             </td>
             <td align='center' class='cotNutChucNang'><a href="?page=update_product&&id=<?php echo $row["product_id"]; ?>"><img src='./tree/img/edit.png' border='0' width="30" height="30" /></a></td>
-            <td align='center' class='cotNutChucNang'><a href="?page=product_management&&function=del&&id=<?php echo $row["product_id"]; ?>" onclick="return deleteConfirm()"><img src='./tree/img/delete.png' border='0' width="30" height="30" /></a></td>
+            <td align='center' class='cotNutChucNang'><a href="?page=product_management&&function=del&&id=<?php echo $row["product_id"]; ?>" onclick="return deleteConfirm()"><img src='./tree/img/delete2.png' border='0' width="30" height="30" /></a></td>
           </tr>
         <?php
           $No++;
