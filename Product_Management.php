@@ -57,7 +57,6 @@
           <th><strong>Price</strong></th>
           <th><strong>Quantity</strong></th>
           <th><strong>Category ID</strong></th>
-          <th><strong>Shops Name</strong></th>
           <th><strong>Shop ID</strong></th>
           <th><strong>Shop Name</strong></th>
           <th><strong>Address</strong></th>
@@ -72,7 +71,7 @@
         <?php
         include_once("conection.php");
         $No = 1;
-        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name, shop_id, shop_name ,address, phone FROM product a, category b, public.shops
+        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name, shop_id, shop_name ,address, phone FROM public.shops, product a, category b
                 WHERE a.cat_id = b.cat_id ORDER BY prodate DESC");
         while ($row = pg_fetch_assoc($result)) {
         ?>
