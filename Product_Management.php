@@ -70,7 +70,7 @@
         <?php
         include_once("conection.php");
         $No = 1;
-        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name, shop_name, address, phone FROM product a, category b
+        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name, shop_name, address, phone FROM public.shops, product a, category b
                 WHERE a.cat_id = b.cat_id ORDER BY prodate DESC");
         while ($row = pg_fetch_assoc($result)) {
         ?>
@@ -87,6 +87,8 @@
             <td align='center' class='cotNutChucNang'>
               <img src='./tree/img/<?php echo $row['pro_image'] ?>' border='0' width="50" height="50" />
             </td>
+            <td align='center' class='cotNutChucNang'><a href="?page=update_shop&&id=<?php echo $row["shop_id"]; ?>"><img src='./tree/img/edit.png' border='0' width="30" height="30" /></a></td>
+            <td align='center' class='cotNutChucNang'><a href="?page=shops_management&&function=del&&id=<?php echo $row["shop_id"]; ?>" onclick="return deleteConfirm()"><img src='./tree/img/delete2.png' border='0' width="30"
             <td align='center' class='cotNutChucNang'><a href="?page=update_product&&id=<?php echo $row["product_id"]; ?>"><img src='./tree/img/edit.png' border='0' width="30" height="30" /></a></td>
             <td align='center' class='cotNutChucNang'><a href="?page=product_management&&function=del&&id=<?php echo $row["product_id"]; ?>" onclick="return deleteConfirm()"><img src='./tree/img/delete2.png' border='0' width="30" height="30" /></a></td>
           </tr>
