@@ -68,7 +68,7 @@
         <?php
         include_once("conection.php");
         $No = 1;
-        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name, shop_name, phone FROM product a, category b, public.shops c
+        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name, shop_name phone FROM product a, category b, public.shops c
                 WHERE  a.cat_id = b.cat_id and a.shops_id = c.shops_id ORDER BY prodate DESC");
         while ($row = pg_fetch_assoc($result)) {
         ?>
