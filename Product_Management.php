@@ -68,7 +68,7 @@
         <?php
         include_once("conection.php");
         $No = 1;
-        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name, shop_name phone FROM product a, category b, public.shops c
+        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name, shop_name FROM product a, category b, public.shops c
                 WHERE  a.cat_id = b.cat_id and a.shops_id = c.shops_id ORDER BY prodate DESC");
         while ($row = pg_fetch_assoc($result)) {
         ?>
@@ -80,6 +80,7 @@
             <td><?php echo $row["pro_qty"]; ?></td>
             <td><?php echo $row["cat_name"]; ?></td>
             <td><?php echo $row["shop_name"]; ?></td>
+            <td><?php echo $row["pro_image"]; ?></td>
             <td align='center' class='cotNutChucNang'>
               <img src='./tree/img/<?php echo $row['pro_image'] ?>' border='0' width="50" height="50" />
             </td>
