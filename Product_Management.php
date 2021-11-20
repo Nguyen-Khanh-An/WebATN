@@ -58,7 +58,6 @@
           <th><strong>Quantity</strong></th>
           <th><strong>Category ID</strong></th>
           <th><strong>Shops Name</strong></th>
-          <th><strong>Address</strong></th>
           <th><strong>Phone</strong></th>
           <th><strong>Image</strong></th>
           <th><strong>Edit</strong></th>
@@ -70,8 +69,8 @@
         <?php
         include_once("conection.php");
         $No = 1;
-        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name FROM  product a, category b
-                WHERE a.cat_id = b.cat_id ORDER BY prodate DESC" and "SELECT shop_name, address, phone FROM public.shops") ;
+        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name, shop_name, phone FROM public.shops, product a, category b
+                WHERE a.cat_id = b.cat_id ORDER BY prodate DESC");
         while ($row = pg_fetch_assoc($result)) {
         ?>
           <tr>
@@ -82,12 +81,10 @@
             <td><?php echo $row["pro_qty"]; ?></td>
             <td><?php echo $row["cat_name"]; ?></td>
             <td><?php echo $row["shop_name"]; ?></td>
-            <td><?php echo $row["address"]; ?></td>
             <td><?php echo $row["phone"]; ?></td>
             <td align='center' class='cotNutChucNang'>
               <img src='./tree/img/<?php echo $row['pro_image'] ?>' border='0' width="50" height="50" />
             </td>
-
             <td align='center' class='cotNutChucNang'><a href="?page=update_product&&id=<?php echo $row["product_id"]; ?>"><img src='./tree/img/edit.png' border='0' width="30" height="30" /></a></td>
             <td align='center' class='cotNutChucNang'><a href="?page=product_management&&function=del&&id=<?php echo $row["product_id"]; ?>" onclick="return deleteConfirm()"><img src='./tree/img/delete2.png' border='0' width="30" height="30" /></a></td>
           </tr>
