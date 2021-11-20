@@ -57,8 +57,7 @@
           <th><strong>Price</strong></th>
           <th><strong>Quantity</strong></th>
           <th><strong>Category ID</strong></th>
-          <th><strong>Shops Name</strong></th>
-          <th><strong>Phone</strong></th>
+          <th><strong>Shops Name</strong></
           <th><strong>Image</strong></th>
           <th><strong>Edit</strong></th>
           <th><strong>Delete</strong></th>
@@ -69,8 +68,8 @@
         <?php
         include_once("conection.php");
         $No = 1;
-        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name, shop_name, phone FROM public.shops , product a, category b
-                WHERE  a.cat_id = b.cat_id ORDER BY prodate DESC");
+        $result = pg_query($conn, "SELECT product_id, product_name, price, pro_qty, pro_image, cat_name, shop_name, phone FROM product a, category b, shops c
+                WHERE  a.cat_id = b.cat_id and a.shops_id = c.shops_id ORDER BY prodate DESC");
         while ($row = pg_fetch_assoc($result)) {
         ?>
           <tr>
@@ -81,7 +80,6 @@
             <td><?php echo $row["pro_qty"]; ?></td>
             <td><?php echo $row["cat_name"]; ?></td>
             <td><?php echo $row["shop_name"]; ?></td>
-            <td><?php echo $row["phone"]; ?></td>
             <td align='center' class='cotNutChucNang'>
               <img src='./tree/img/<?php echo $row['pro_image'] ?>' border='0' width="50" height="50" />
             </td>
